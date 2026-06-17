@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sky: #7CB9E8;
+  --sky-light: #B8D9F0;
+  --mint: #B2D8D8;
+  --mint-light: #D4ECEC;
+  --sand: #E8D5B7;
+  --sand-light: #F2E8D6;
+  --soft-white: #F8F6F0;
+  --soft-gray: #EAE6DE;
+  --text-primary: #2D2A26;
+  --text-secondary: #6B6560;
+  --text-muted: #9E9892;
+}
+
+body {
+  background-color: var(--soft-white);
+  color: var(--text-primary);
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #F8F6F0 0%, #D4ECEC 40%, #B8D9F0 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(248,246,240,0.95) 100%);
+}
